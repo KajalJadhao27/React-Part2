@@ -15,6 +15,12 @@ function AddTodo() {
 
     
 
+    const removeTodoHandler = (e) => {
+      e.preventDefault()
+      dispatch(removeTodo(input))
+      setInput('')
+  }
+
   return (
     <form onSubmit={addTodoHandler} className="space-x-3 mt-12">
       <input

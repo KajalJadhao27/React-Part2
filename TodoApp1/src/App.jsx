@@ -1,6 +1,4 @@
-import React, { useState } from "react";
-
-import {useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import {TodoProvider} from './Context'
 import './App.css'
 import TodoForm from './components/TodoForm'
